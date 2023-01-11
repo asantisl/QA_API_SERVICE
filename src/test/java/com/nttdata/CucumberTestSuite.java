@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {"pretty"},
         features = "classpath:features",
-        tags = "~@test-createOrder and ~@test-getOrder")
+        tags = "@test-createOrder and @test-getOrder")
 
 public class CucumberTestSuite {
 }
